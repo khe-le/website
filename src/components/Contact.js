@@ -35,14 +35,14 @@ const Contact = () => (
                 <span className="label">LinkedIn</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 className="icon alt2 fa-instagram"
                 href="https://www.instagram.com/khe_levy/?hl=en"
               >
                 <span className="label">Instagram</span>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 className="icon alt2 fa-youtube"

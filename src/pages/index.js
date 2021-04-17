@@ -69,8 +69,8 @@ const HomeIndex = () => {
                     sophomore. I’m currently pursuing a BA degree in computer
                     science at Connecticut College with an expected graduation
                     in 2024. I’m passionate about cultivating technical
-                    solutions for solving problems, advocating sustainability,
-                    and writing community-driven applications.
+                    solutions to real-world problems, advocating sustainability,
+                    and building community-driven applications.
                     {summary && (
                       <span onClick={handler} className="expand-toggle">
                         read more...
@@ -114,7 +114,7 @@ const HomeIndex = () => {
                         solutions.
                       </p>
                       <p>
-                        Competencies: Python/Java, full-stack web development,
+                        👾Competencies: Python/Java, full-stack web development,
                         MERN stack, UI/UX design, embedded systems
                         <span onClick={handler} className="expand-toggle">
                           ...read less
