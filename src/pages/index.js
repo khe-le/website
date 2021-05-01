@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import Banner from "../components/Banner";
 import Project from "../components/Project";
 import FadeInSection from "../components/FadeInSection";
+import Gallery from "../components/Gallery";
 import { useState } from "react";
 
 /* Profile Pictures */
@@ -525,6 +526,9 @@ const HomeIndex = () => {
               </div>
             </FadeInSection>
           </div>
+        </section>
+        <section id="gallery">
+          <Gallery></Gallery>
         </section>
       </div>
     </Layout>

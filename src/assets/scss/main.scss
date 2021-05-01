@@ -1,54 +1,64 @@
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-@import 'libs/skel';
-@import '../css/font-awesome.min.css';
-@import 'custom';
-@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic');
+@import "libs/vars";
+@import "libs/functions";
+@import "libs/mixins";
+@import "libs/skel";
+@import "../css/font-awesome.min.css";
+@import "custom";
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
 
+@include skel-breakpoints(
+  (
+    xlarge: "(min-width: 1200px)",
+    // Extra large devices (large desktops) - no upper bound on width
+      large: "(max-width: 1199.98px)",
+    // Large devices (desktops, less than 1200px)
+      medium: "(max-width: 991.98px)",
+    // Medium devices (tablets, less than 992px)
+      small1: "(max-width: 768.5px)",
+    // Small devices (landscape phones, less than 768px)
+      small2: "(max-width: 709.98px)",
+    // CUSTOM Small devices (landscape phones, less than 710px)
+      xsmall: "(max-width: 575.98px)",
+    // Extra small devices (portrait phones, less than 576px),,,,
+  )
+);
 
+@include skel-layout(
+  (
+    reset: "full",
+    boxModel: "border",
+  )
+);
 
-	@include skel-breakpoints((
-		xlarge: '(min-width: 1200px)', // Extra large devices (large desktops) - no upper bound on width
-		large: '(max-width: 1199.98px)', // Large devices (desktops, less than 1200px)
-		medium: '(max-width: 991.98px)', // Medium devices (tablets, less than 992px)
-		small1: '(max-width: 768.5px)', // Small devices (landscape phones, less than 768px)
-		small2: '(max-width: 709.98px)', // CUSTOM Small devices (landscape phones, less than 710px)
-		xsmall: '(max-width: 575.98px)', // Extra small devices (portrait phones, less than 576px)
-
-	));
-
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border'
-	));
-
-	@mixin inner {
-		> .inner {
-			@include padding(4em, 0);
-			margin: 0 auto;
-		}
-	}
+@mixin inner {
+  > .inner {
+    @include padding(4em, 0);
+    margin: 0 auto;
+  }
+}
 
 // Base.
 
-	@import 'base/page';
-	@import 'base/typography';
+@import "base/page";
+@import "base/typography";
 
 // Component.
 
-	@import 'components/section';
-	@import 'components/icon';
-	@import 'components/fade-in-section';
+@import "components/section";
+@import "components/icon";
+@import "components/fade-in-section";
 
 // Layout.
 
-	@import 'layout/wrapper';
-	@import 'layout/header';
-	@import 'layout/banner';
-	@import 'layout/main';
-	@import 'layout/about';
-	@import 'layout/work';
-	@import 'layout/project';
-	@import 'layout/contact';
+@import "layout/wrapper";
+@import "layout/header";
+@import "layout/banner";
+@import "layout/main";
+@import "layout/about";
+@import "layout/work";
+@import "layout/project";
+@import "layout/gallery";
+@import "layout/contact";

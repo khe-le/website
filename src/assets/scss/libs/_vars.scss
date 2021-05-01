@@ -1,50 +1,63 @@
 // Duration.
-	$duration: (
-		menu:				0.35s,
-		transition:			0.2s,
-		banner:				2.5s,
-		project: 			0.3s,
-	);
+$duration: (
+  menu: 0.35s,
+  transition: 0.2s,
+  banner: 2.5s,
+  project: 0.3s,
+);
 
 // Size.
-	$size: (
-		border-radius:		4px,
-		element-height:		2.75em,
-		element-margin:		2em,
-		inner:				65em
-	);
+$size: (
+  border-radius: 4px,
+  element-height: 2.75em,
+  element-margin: 2em,
+  inner: 65em,
+);
 
 // Font.
-	$font: (
-		family:				('Source Sans Pro', Helvetica, 'Trebuchet MS', sans-serif),
-		code:				('Roboto Mono','monospace'),
-		weight:				300,
-		weight-bold:		600,
-		letter-spacing:		0.025em,
-		letter-spacing-alt:	0.25em
-	);
+$font: (
+  family: (
+    "Source Sans Pro",
+    Helvetica,
+    "Trebuchet MS",
+    sans-serif,
+  ),
+  code: (
+    "Roboto Mono",
+    "monospace",
+  ),
+  journal: (
+    "La Belle Aurore",
+    "Reenie Beanie",
+    "cursive",
+  ),
+  weight: 300,
+  weight-bold: 600,
+  letter-spacing: 0.025em,
+  letter-spacing-alt: 0.25em,
+);
 
 // Palette.
-	$palette: (
-		blk:				#000,
-		gr:					#0e0e0e,
-		gr-light:			#979797,
-		bg:					#242943,
-		bg-alt:				#2a2f4a,
-		fg:					#ffffff,
-		fg-medium:			#e3dfdb,
-		moss:				#1a2420,
-		accent7: 			#e6bd8f,
-		accent4:			#ffdbb3,
-		banner1: 			#a17050,
-		banner2: 			#fffaf1,
-		banner3:			#4b645b,
-		banner4: 			#283832,
-		banner5:		 	#a5caa5,
-		banner6:			#334740,
-		banner7:			#1e2925,
-		banner8:			#0c1511,
-		project1:			#9ce4dc,
-		fav:				#c5aa8a,
-		fav2: 				#a58d70,
-	);
+$palette: (
+  blk: #000,
+  gr: #0e0e0e,
+  gr-light: #979797,
+  bg: #242943,
+  bg-alt: #2a2f4a,
+  fg: #ffffff,
+  fg-medium: #e3dfdb,
+  moss: #1a2420,
+  accent7: #e6bd8f,
+  accent4: #ffdbb3,
+  banner1: #a17050,
+  banner2: #fffaf1,
+  banner3: #4b645b,
+  banner4: #283832,
+  banner5: #a5caa5,
+  banner6: #334740,
+  banner7: #1e2925,
+  banner8: #0c1511,
+  project1: #9ce4dc,
+  fav: #c5aa8a,
+  fav2: #a58d70,
+);

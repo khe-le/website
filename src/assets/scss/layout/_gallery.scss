@@ -1,0 +1,139 @@
+/* Gallery SCSS */
+
+#gallery {
+  padding: 5% 12% 0%;
+  background-color: _palette(banner7);
+  cursor: default;
+
+  img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  .container-fluid {
+    padding: 5% 0 15%;
+    border-radius: 30rem;
+    box-shadow: 0 5px 60px _palette(blk) inset;
+    border: 0.5rem solid #564631;
+  }
+
+  .title-box {
+    padding: 0 7rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2;
+    margin-bottom: 10%;
+    color: _palette(accent7);
+  }
+
+  .vertical-line {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0;
+    line-height: 1;
+    color: _palette(accent7);
+  }
+
+  .subtitle {
+    font-family: _font(journal);
+    text-align: right;
+    margin-bottom: 10%;
+    font-size: 1.8rem;
+    transform: rotate(4deg);
+    opacity: 0.5;
+  }
+
+  .subtitle-2 {
+    font-family: _font(journal);
+    text-align: left;
+    margin-top: 5%;
+    font-size: 1.8rem;
+    transform: rotate(4deg);
+    opacity: 0.5;
+  }
+
+  .row {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .custom-col {
+    padding: 0 0.5rem;
+  }
+
+  /* Gallery Media Breakpoints */
+  @include breakpoint(medium) {
+    padding: 5% 10% 0%;
+    img {
+      margin-bottom: 0.2rem;
+    }
+
+    .title {
+      font-size: 1.6rem;
+    }
+
+    .vertical-line {
+      font-size: 2rem;
+    }
+
+    .subtitle,
+    .subtitle-2 {
+      font-size: 1.5rem;
+    }
+
+    .custom-col {
+      padding: 0 0.3rem;
+    }
+  }
+
+  @include breakpoint(small1) {
+    padding: 5% 13% 0%;
+
+    .subtitle,
+    .subtitle-2 {
+      font-size: 1.4rem;
+    }
+  }
+
+  @include breakpoint(small2) {
+    padding: 5% 12% 0%;
+
+    .title {
+      font-size: 1.5rem;
+    }
+
+    .vertical-line {
+      font-size: 1.8rem;
+    }
+
+    .title-box {
+      padding: 0 5rem;
+    }
+
+    .subtitle,
+    .subtitle-2 {
+      font-size: 1.3rem;
+    }
+
+    .row {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+  }
+
+  @include breakpoint(xsmall) {
+    padding: 5% 8% 0%;
+
+    .title {
+      font-size: 1.4rem;
+    }
+
+    .vertical-line {
+      font-size: 1.5rem;
+    }
+  }
+}

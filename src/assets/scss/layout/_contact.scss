@@ -111,18 +111,6 @@
 		}
 	}
 
-	// .copyright {
-	// 	position: absolute;
-	// 	font-size: 0.7rem;
-	// 	color: _palette(fg);
-	// 	letter-spacing: 1px;
-	// 	opacity: 0.5;
-	// 	bottom: 3%;
-	// 	left: 0;
-	// 	right: 0;
-	// 	margin-bottom: 0;
-	// }
-
 	/* Contact Media Breakpoints */
 	@include breakpoint(large) {
 		.subtitle {
@@ -205,10 +193,5 @@
 			background-repeat: no-repeat;
 			padding: 8% 5% 3%;
 		}
-
-		// .copyright {
-		// 	bottom: 1%;
-		// }
 	}
-
 }
