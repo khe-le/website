@@ -6,7 +6,7 @@ import Project from "../components/Project";
 import FadeInSection from "../components/FadeInSection";
 import Gallery from "../components/Gallery";
 import { useState } from "react";
-
+// Imports
 /* Profile Pictures */
 import squareAva from "../assets/images/avatar-md.png";
 import roundAva from "../assets/images/rsz_avatar-xs.png";
