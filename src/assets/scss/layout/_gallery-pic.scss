@@ -28,8 +28,8 @@
     opacity: 0.7;
 
     &.right {
-      text-align: right;
       right: 0;
+      max-width: 65%;
     }
   }
 
@@ -50,6 +50,12 @@
   @include breakpoint(small1) {
     img {
       margin-bottom: 0.4rem;
+    }
+
+    .desc-box {
+      &.right {
+        max-width: 40%;
+      }
     }
   }
 }
