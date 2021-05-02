@@ -1,0 +1,55 @@
+/* Gallery Pic SCSS */
+
+#gallery-pic {
+  .box {
+    position: relative;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 1rem;
+    display: block;
+
+    &:hover {
+      transition: ease-in-out;
+      transition-duration: 0.3s;
+      filter: grayscale(1);
+    }
+  }
+
+  .desc-box {
+    font-size: 0.8rem;
+    font-family: _font(code);
+    position: absolute;
+    bottom: 0;
+    background: _palette(blk);
+    padding: 0.5rem;
+    text-transform: capitalize;
+    opacity: 0.7;
+
+    &.right {
+      text-align: right;
+      right: 0;
+    }
+  }
+
+  /* Gallery Pic Media Breakpoints */
+  @include breakpoint(medium) {
+    img {
+      margin-bottom: 0.7rem;
+    }
+  }
+
+  @include breakpoint(small1) {
+    .desc-box {
+      font-size: 0.6rem;
+      padding: 0.3rem;
+    }
+  }
+
+  @include breakpoint(small1) {
+    img {
+      margin-bottom: 0.4rem;
+    }
+  }
+}

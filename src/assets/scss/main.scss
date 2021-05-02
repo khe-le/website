@@ -22,7 +22,7 @@
       small2: "(max-width: 709.98px)",
     // CUSTOM Small devices (landscape phones, less than 710px)
       xsmall: "(max-width: 575.98px)",
-    // Extra small devices (portrait phones, less than 576px),,,,
+    // Extra small devices (portrait phones, less than 576px),,,,,
   )
 );
 
@@ -61,4 +61,5 @@
 @import "layout/work";
 @import "layout/project";
 @import "layout/gallery";
+@import "layout/gallery-pic";
 @import "layout/contact";

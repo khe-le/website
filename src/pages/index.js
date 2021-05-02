@@ -65,13 +65,14 @@ const HomeIndex = () => {
                   <hr></hr>
                   <img className="round-avatar" src={roundAva} alt="Avatar" />
                   <p>
-                    👋Hi there! I’m a software engineer intern at Bosch Vietnam
-                    in the field of automotive mobility and a college rising
-                    sophomore. I’m currently pursuing a BA degree in computer
-                    science at Connecticut College with an expected graduation
-                    in 2024. I’m passionate about cultivating technical
-                    solutions to real-world problems, advocating sustainability,
-                    and building community-driven applications.
+                    <span role="img">👋</span>Hi there! I’m a software engineer
+                    intern at Bosch Vietnam in the field of automotive mobility
+                    and a college rising sophomore. I’m currently pursuing a BA
+                    degree in computer science at Connecticut College with an
+                    expected graduation in 2024. I’m passionate about
+                    cultivating technical solutions to real-world problems,
+                    advocating sustainability, and building community-driven
+                    applications.
                     {summary && (
                       <span onClick={handler} className="expand-toggle">
                         read more...
@@ -81,42 +82,44 @@ const HomeIndex = () => {
                   {!summary && (
                     <>
                       <p>
-                        🌊I appreciate every challenge I came across that helped
-                        cultivate my self-efficacy in this risk-taking world.
-                        Through internships at innovative tech companies, I
-                        learned the importance of staying open-minded to
-                        changes, whether they be adaptations to new project
-                        alignments, programming languages, or attitudes. I feel
-                        highly motivated as I discover ways to improve
-                        flexibility and creativity through ongoing discussions
-                        with others to address a customer’s changing needs.
+                        <span role="img">🌊</span>I appreciate every challenge I
+                        came across that helped cultivate my self-efficacy in
+                        this risk-taking world. Through internships at
+                        innovative tech companies, I learned the importance of
+                        staying open-minded to changes, whether they be
+                        adaptations to new project alignments, programming
+                        languages, or attitudes. I feel highly motivated as I
+                        discover ways to improve flexibility and creativity
+                        through ongoing discussions with others to address a
+                        customer’s changing needs.
                       </p>
                       <p>
-                        🌤 What compels me to wake up for work and become fully
-                        charged for the day is knowing I have another chance to
-                        bring warmth and friendship to my community. I thrive in
-                        jobs that foster diversity and culture, enjoying
-                        collaborations with people from different walks of life
-                        for a shared mission. Not only do I see it as a chance
-                        to accumulate new knowledge, but also to deeply connect
-                        with others through their different views at problems. I
-                        aim to be a team player, be in tune with the emotional
-                        needs of those around me, and thrive on positive
-                        reinforcement.
+                        <span role="img">🌤</span>What compels me to wake up for
+                        work and become fully charged for the day is knowing I
+                        have another chance to bring warmth and friendship to my
+                        community. I thrive in jobs that foster diversity and
+                        culture, enjoying collaborations with people from
+                        different walks of life for a shared mission. Not only
+                        do I see it as a chance to accumulate new knowledge, but
+                        also to deeply connect with others through their
+                        different views at problems. I aim to be a team player,
+                        be in tune with the emotional needs of those around me,
+                        and thrive on positive reinforcement.
                       </p>
                       <p>
-                        🌿I love to organize my room on a regular basis. Such
-                        habit transfers to my every aspect of life. I always try
-                        to start the day with a goal-oriented mindset and bring
-                        my organized characteristics to the work I do for
-                        maximum productivity. Rather than following rigid
-                        approaches, I prefer to strive to expand my comfort zone
-                        and adopt unconventional methods to build sustainable
-                        solutions.
+                        <span role="img">🌿</span>I love to organize my room on
+                        a regular basis. Such habit transfers to my every aspect
+                        of life. I always try to start the day with a
+                        goal-oriented mindset and bring my organized
+                        characteristics to the work I do for maximum
+                        productivity. Rather than following rigid approaches, I
+                        prefer to strive to expand my comfort zone and adopt
+                        unconventional methods to build sustainable solutions.
                       </p>
                       <p>
-                        👾Competencies: Python/Java, full-stack web development,
-                        MERN stack, UI/UX design, embedded systems
+                        <span role="img">👾</span>Competencies: Python/Java,
+                        full-stack web development, MERN stack, UI/UX design,
+                        embedded systems
                         <span onClick={handler} className="expand-toggle">
                           ...read less
                         </span>

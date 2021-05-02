@@ -5,16 +5,22 @@
   background-color: _palette(banner7);
   cursor: default;
 
-  img {
-    width: 100%;
-    margin-bottom: 0.5rem;
-  }
-
   .container-fluid {
     padding: 5% 0 15%;
     border-radius: 30rem;
     box-shadow: 0 5px 60px _palette(blk) inset;
     border: 0.5rem solid #564631;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 0.5rem;
+
+    &:hover {
+      transition: ease-in-out;
+      transition-duration: 0.3s;
+      filter: grayscale(1);
+    }
   }
 
   .title-box {
@@ -68,10 +74,6 @@
   /* Gallery Media Breakpoints */
   @include breakpoint(medium) {
     padding: 5% 10% 0%;
-    img {
-      margin-bottom: 0.2rem;
-    }
-
     .title {
       font-size: 1.6rem;
     }
@@ -96,6 +98,10 @@
     .subtitle,
     .subtitle-2 {
       font-size: 1.4rem;
+    }
+
+    .custom-col {
+      padding: 0 0.2rem;
     }
   }
 
@@ -134,6 +140,11 @@
 
     .vertical-line {
       font-size: 1.5rem;
+    }
+
+    .subtitle,
+    .subtitle-2 {
+      font-size: 1rem;
     }
   }
 }
