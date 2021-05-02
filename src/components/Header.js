@@ -61,11 +61,11 @@ class Header extends React.Component {
               <ScrollIntoView selector="#work">
                 <Nav.Link className="section-link">Work</Nav.Link>
               </ScrollIntoView>
-              <ScrollIntoView selector="#contact">
-                <Nav.Link className="section-link">Contact</Nav.Link>
-              </ScrollIntoView>
               <ScrollIntoView selector="#gallery">
                 <Nav.Link className="section-link">Gallery</Nav.Link>
+              </ScrollIntoView>
+              <ScrollIntoView selector="#contact">
+                <Nav.Link className="section-link">Contact</Nav.Link>
               </ScrollIntoView>
               <ScrollIntoView selector="">
                 <Nav.Link
