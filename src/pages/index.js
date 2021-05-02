@@ -9,24 +9,24 @@ import { useState } from "react";
 
 /* Profile Pictures */
 import squareAva from "../assets/images/avatar-md.png";
-import roundAva from "../assets/images/avatar-xs.png";
+import roundAva from "../assets/images/rsz_avatar-xs.png";
 
 /* Project Images with width:height ratio of 1.6:1 */
 
 //Project 1
-import proj1a from "../assets/images/project1a.png";
-import proj1b from "../assets/images/project1b.png";
-import proj1c from "../assets/images/project1c.png";
+import proj1a from "../assets/images/rsz_project1a.png";
+import proj1b from "../assets/images/rsz_project1b.png";
+import proj1c from "../assets/images/rsz_project1c.png";
 
 //Project 2
-import proj2a from "../assets/images/project2a.png";
-import proj2b from "../assets/images/project2b.png";
-import proj2c from "../assets/images/project2c.png";
+import proj2a from "../assets/images/rsz_project2a.png";
+import proj2b from "../assets/images/rsz_project2b.png";
+import proj2c from "../assets/images/rsz_project2c.png";
 
 //Project 3
-import proj3a from "../assets/images/project3a.png";
-import proj3b from "../assets/images/project3b.png";
-import proj3c from "../assets/images/project3c.png";
+import proj3a from "../assets/images/rsz_project3a.png";
+import proj3b from "../assets/images/rsz_project3b.png";
+import proj3c from "../assets/images/rsz_project3c.png";
 
 const HomeIndex = () => {
   const [summary, toggleExpand] = useState(true);
@@ -45,7 +45,24 @@ const HomeIndex = () => {
           { name: "keywords", content: "personal webstite, portfolio" },
         ]}
       ></Helmet>
-
+      <link
+        rel="preload"
+        as="image"
+        href="../assets/images/banner.png"
+        style={{ display: "none" }}
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="../assets/images/banner-sm.png"
+        style={{ display: "none" }}
+      />
+      <link
+        rel="preload"
+        as="image"
+        href="../assets/images/banner-xs.png"
+        style={{ display: "none" }}
+      />
       {/* Banner */}
       <Banner />
 
