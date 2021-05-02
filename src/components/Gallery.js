@@ -74,7 +74,7 @@ const Gallery = (props) => (
         <div className="col-4 custom-col">
           <GalleryPic
             picSrc="https://drive.google.com/uc?export=view&id=1x59UGOFN8hPIefI_XY4SzpQ_XiXkWuci"
-            picDesc="First Snow - New London, CT"
+            picDesc="First Snow With Sylvia - New London, CT"
             picStyle={{ borderRadius: "0" }}
           />
         </div>
