@@ -82,10 +82,10 @@ const HomeIndex = () => {
                   <hr></hr>
                   <img className="round-avatar" src={roundAva} alt="Avatar" />
                   <p>
-                    <span role="img">👋</span>Hi there! I’m a software engineer
-                    intern at Bosch Vietnam in the field of automotive mobility
-                    and a college rising sophomore. I’m currently pursuing a BA
-                    degree in computer science at Connecticut College with an
+                    <span role="img">👋</span>Hi there! I’m a college rising
+                    sophomore and a software engineer intern at Bosch Vietnam in
+                    the field of automotive mobility. I’m currently pursuing a
+                    BA degree in computer science at Connecticut College with an
                     expected graduation in 2024. I’m passionate about
                     cultivating technical solutions to real-world problems,
                     advocating sustainability, and building community-driven
@@ -111,6 +111,16 @@ const HomeIndex = () => {
                         customer’s changing needs.
                       </p>
                       <p>
+                        <span role="img">🌿</span>I love to organize my room on
+                        a regular basis. Such habit transfers to my every aspect
+                        of life. I always try to start the day with a
+                        goal-oriented mindset and bring my organized
+                        characteristics to the work I do for maximum
+                        productivity. Rather than following rigid approaches, I
+                        prefer to strive to expand my comfort zone and adopt
+                        unconventional methods to build sustainable solutions.
+                      </p>
+                      <p>
                         <span role="img">🌤</span>What compels me to wake up for
                         work and become fully charged for the day is knowing I
                         have another chance to bring warmth and friendship to my
@@ -122,16 +132,6 @@ const HomeIndex = () => {
                         different views at problems. I aim to be a team player,
                         be in tune with the emotional needs of those around me,
                         and thrive on positive reinforcement.
-                      </p>
-                      <p>
-                        <span role="img">🌿</span>I love to organize my room on
-                        a regular basis. Such habit transfers to my every aspect
-                        of life. I always try to start the day with a
-                        goal-oriented mindset and bring my organized
-                        characteristics to the work I do for maximum
-                        productivity. Rather than following rigid approaches, I
-                        prefer to strive to expand my comfort zone and adopt
-                        unconventional methods to build sustainable solutions.
                       </p>
                       <p>
                         <span role="img">👾</span>Competencies: Python/Java,

@@ -27,8 +27,12 @@
     text-transform: capitalize;
     opacity: 0.7;
 
-    &.right {
+    &.left-box {
       right: 0;
+      max-width: 65%;
+    }
+
+    &.right-box {
       max-width: 65%;
     }
   }
@@ -53,8 +57,12 @@
     }
 
     .desc-box {
-      &.right {
+      &.left-box {
         max-width: 40%;
+      }
+
+      &.right-box {
+        max-width: 55%;
       }
     }
   }

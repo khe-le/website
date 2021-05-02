@@ -15,11 +15,18 @@ const GalleryPic = (props) => {
         onMouseEnter={handleHover}
         onMouseLeave={handleHover}
       />
-      {isHovered && (
-        <div className={props.leftCornerPic ? "desc-box right" : "desc-box"}>
-          {props.picDesc}
-        </div>
-      )}
+      <div
+        className={
+          props.leftCornerPic
+            ? "desc-box left-box"
+            : props.rightCornerPic
+            ? "desc-box right-box"
+            : "desc-box"
+        }
+        style={isHovered ? { display: "block" } : { display: "none" }}
+      >
+        {props.picDesc}
+      </div>
     </div>
   );
 };

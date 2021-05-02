@@ -108,6 +108,7 @@ const Gallery = (props) => (
             picSrc="https://drive.google.com/uc?export=view&id=1t9UhDf02ZTvFt9cnmeP6ek4OiMZ7R2kU"
             picDesc="Lake Michigan - Chicago, IL"
             picStyle={{ borderRadius: "0 0 6rem 0" }}
+            rightCornerPic
           />
         </div>
       </div>
