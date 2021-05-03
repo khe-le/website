@@ -13,29 +13,29 @@ const Gallery = (props) => (
       <div className="row">
         <div className="col-7 custom-col">
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1-_QbO-OPAKYA2KdCFCmL53FAGQJArhtb"
+            picSrc={require("../assets/images/gallery/muacave.webp")}
             picDesc="Hang Mua | Mua Caves - Ninh Binh, Vietnam"
             picStyle={{ borderRadius: "3rem 0 0 0" }}
           />
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1z-1sdBUjLvgzWYE2ua9AOWY6mTss0hEm"
+            picSrc={require("../assets/images/gallery/tacos.webp")}
             picDesc="Nori Tacos - Favorite Homemade Dish"
             picStyle={{ borderRadius: "0" }}
           />
         </div>
         <div className="col-5 custom-col">
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1YigaiIc9tJij6KrpUm9BFHptqarUD09T"
+            picSrc={require("../assets/images/gallery/plants.webp")}
             picDesc="A Little Greenery - Home Mini Garden"
             picStyle={{ borderRadius: "0 3rem 0 0" }}
           />
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1iqyBz9IWVt7-Cl3v3goeya5Xn-IZHHQF"
+            picSrc={require("../assets/images/gallery/lake-close.webp")}
             picDesc="Lake Michigan - Chicago, IL"
             picStyle={{ borderRadius: "0" }}
           />
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1xMB5C_L4UTiL75AkqGtu3U9kRaayaERT"
+            picSrc={require("../assets/images/gallery/fall.webp")}
             picDesc="The Arboretum - Connecticut College"
             picStyle={{ borderRadius: "0" }}
           />
@@ -47,7 +47,7 @@ const Gallery = (props) => (
       <div className="row">
         <div className="col-12 custom-col">
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1sGwdS0_S8Wi8bcDzX2gPMD8KXhf1lj2d"
+            picSrc={require("../assets/images/gallery/bamboo.webp")}
             picDesc="Alba Wellness Valley - Hue, Vietnam"
             picStyle={{ borderRadius: "0" }}
           />
@@ -59,21 +59,21 @@ const Gallery = (props) => (
       <div className="row">
         <div className="col-4 custom-col">
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1fiUmJoH3w3bGVCmH5ZPQUvGdaNDx3hxR"
+            picSrc={require("../assets/images/gallery/saigon.webp")}
             picDesc="Quoc Lo 52 | Highway 52 - Saigon, Vietnam"
             picStyle={{ borderRadius: "0" }}
           />
         </div>
         <div className="col-4 custom-col">
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1wHsZhtbEgL2cKmVjDSoJu0gpqOhQIJy_"
+            picSrc={require("../assets/images/gallery/sunset.webp")}
             picDesc="Walnut Beach - Milford, CT"
             picStyle={{ borderRadius: "0" }}
           />
         </div>
         <div className="col-4 custom-col">
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1x59UGOFN8hPIefI_XY4SzpQ_XiXkWuci"
+            picSrc={require("../assets/images/gallery/snow.webp")}
             picDesc="First Snow With Sylvia - New London, CT"
             picStyle={{ borderRadius: "0" }}
           />
@@ -82,12 +82,12 @@ const Gallery = (props) => (
       <div className="row">
         <div className="col-5 custom-col">
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=169SUrIOr4DJNZ7xdgoDuldrm6TdfXfyn"
+            picSrc={require("../assets/images/gallery/cave.webp")}
             picDesc="Tuyet Tinh Coc | Am Tien Cave - Ninh Binh, Vietnam"
             picStyle={{ borderRadius: "0" }}
           />
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1jly1E6olTwNMfs-qfnOCz2h-fmev1luh"
+            picSrc={require("../assets/images/gallery/smile.webp")}
             picDesc="Say 'Beach' - Vung Tau, Vietnam"
             picStyle={{ borderRadius: "0 0 0 6rem" }}
             leftCornerPic
@@ -95,17 +95,17 @@ const Gallery = (props) => (
         </div>
         <div className="col-7 custom-col">
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1YjI1s_PZjTwK5PUdvtJFMgU0g0mOUmkI"
+            picSrc={require("../assets/images/gallery/dawn.webp")}
             picDesc="Walnut Beach - Milford, CT"
             picStyle={{ borderRadius: "0" }}
           />
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1_z2Z81fTZOyAPNFP9ZUtZufyKWZV9FnM"
+            picSrc={require("../assets/images/gallery/violin.webp")}
             picDesc="Evans Hall - Connecticut College"
             picStyle={{ borderRadius: "0" }}
           />
           <GalleryPic
-            picSrc="https://drive.google.com/uc?export=view&id=1t9UhDf02ZTvFt9cnmeP6ek4OiMZ7R2kU"
+            picSrc={require("../assets/images/gallery/lake-wide.webp")}
             picDesc="Lake Michigan - Chicago, IL"
             picStyle={{ borderRadius: "0 0 6rem 0" }}
             rightCornerPic
