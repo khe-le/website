@@ -45,7 +45,14 @@ const Gallery = (props) => (
 
     <FadeInSection>
       <div className="row">
-        <div className="col-12 custom-col">
+        <div className="col-4 custom-col">
+          <GalleryPic
+            picSrc={require("../assets/images/gallery/halongbay.webp")}
+            picDesc="Ha Long Bay - Quang Ninh, Vietnam"
+            picStyle={{ borderRadius: "0" }}
+          />
+        </div>
+        <div className="col-8 custom-col">
           <GalleryPic
             picSrc={require("../assets/images/gallery/bamboo.webp")}
             picDesc="Alba Wellness Valley - Hue, Vietnam"
