@@ -109,6 +109,14 @@ class Header extends React.Component {
             {/* <li><a className="icon alt fa-instagram" href="https://www.instagram.com/khe_levy/?hl=en"><span className="label">Instagram</span></a></li> */}
             <li>
               <a
+                className="icon alt fa-paint-brush"
+                href="https://plantifulcity.carrd.com"
+              >
+                <span className="label">Art</span>
+              </a>
+            </li>
+            <li>
+              <a
                 className="icon alt fa-youtube"
                 href="https://www.youtube.com/channel/UCVLkEtPgGuJr2MtABha7_og"
               >

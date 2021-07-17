@@ -45,6 +45,14 @@ const Contact = () => (
             </li> */}
             <li>
               <a
+                className="icon alt2 fa-paint-brush"
+                href="https://plantifulcity.carrd.com"
+              >
+                <span className="label">Art</span>
+              </a>
+            </li>
+            <li>
+              <a
                 className="icon alt2 fa-youtube"
                 href="https://www.youtube.com/channel/UCVLkEtPgGuJr2MtABha7_og"
               >
