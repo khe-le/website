@@ -82,7 +82,7 @@ const HomeIndex = () => {
                   <hr></hr>
                   <img className="round-avatar" src={roundAva} alt="Avatar" />
                   <p>
-                    <span role="img">👋</span>Hi there! Hi! I’m a sophomore at Connecticut College 
+                    <span role="img">👋</span>Hi there! My name is Kate. I'm a sophomore at Connecticut College 
                     and a former software engineer intern at Bosch Automotive Mobility. 
                     I'm pursuing a BA degree in computer science with an expected graduation in 2024. 
                     What I'm most passionate about are cultivating technical solutions to real-world problems, 
@@ -144,7 +144,7 @@ const HomeIndex = () => {
                   <div class="profile row">
                     <div className="profile-column col-md-6">
                       <h3>
-                        <b>Full Name:</b> Khe Le
+                        <b>Full Name:</b> Kate Le
                       </h3>
                       <h3>
                         <b>School:</b> Connecticut College
