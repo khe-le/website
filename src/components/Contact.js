@@ -61,7 +61,7 @@ const Contact = () => (
             </li>
           </ul>
           <a href="https://github.com/khe-le/website">
-            <p className="claim">Designed & Built by Khe Le</p>
+            <p className="claim">Designed & Built by Kate Le</p>
           </a>
         </div>
       </FadeInSection>
