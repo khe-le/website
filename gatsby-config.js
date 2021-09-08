@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Khe's Website",
-    author: "Khe Le",
+    title: "Kate's Website",
+    author: "Kate Le",
     description: "A Gatsby.js V2 Starter based on Forty by HTML5 UP"
   },
   plugins: [
