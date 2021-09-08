@@ -82,14 +82,11 @@ const HomeIndex = () => {
                   <hr></hr>
                   <img className="round-avatar" src={roundAva} alt="Avatar" />
                   <p>
-                    <span role="img">👋</span>Hi there! I’m a college rising
-                    sophomore and a software engineer intern at Bosch Vietnam in
-                    the field of automotive mobility. I’m currently pursuing a
-                    BA degree in computer science at Connecticut College with an
-                    expected graduation in 2024. I’m passionate about
-                    cultivating technical solutions to real-world problems,
-                    advocating sustainability, and building community-driven
-                    applications.
+                    <span role="img">👋</span>Hi there! Hi! I’m a sophomore at Connecticut College 
+                    and a former software engineer intern at Bosch Automotive Mobility. 
+                    I'm pursuing a BA degree in computer science with an expected graduation in 2024. 
+                    What I'm most passionate about are cultivating technical solutions to real-world problems, 
+                    advocating sustainability, and building community-driven applications. 
                     {summary && (
                       <span onClick={handler} className="expand-toggle">
                         read more...
