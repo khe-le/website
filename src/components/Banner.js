@@ -5,7 +5,7 @@ const Banner = () => (
   <section id="banner">
     <div class="inner">
       <p className="greeting">Hi, my name is</p>
-      <h1 className="name">Khe Le</h1>
+      <h1 className="name">Kate Le</h1>
       <h1 className="pitch">Let's connect.</h1>
       <p className="intro">
         Welcome to my website, where I share both of my professional and
