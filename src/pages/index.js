@@ -82,8 +82,7 @@ const HomeIndex = () => {
                   <hr></hr>
                   <img className="round-avatar" src={roundAva} alt="Avatar" />
                   <p>
-                    <span role="img">👋</span>Hi there! My name is Kate. I'm a sophomore at Connecticut College 
-                    and a former software engineer intern at Bosch Automotive Mobility. 
+                    <span role="img">👋</span>Hi, I'm Khe, but also go by Kate. I'm a sophomore at Connecticut College  
                     I'm pursuing a BA degree in computer science with an expected graduation in 2024. 
                     What I'm most passionate about are cultivating technical solutions to real-world problems, 
                     advocating sustainability, and building community-driven applications. 
@@ -161,13 +160,13 @@ const HomeIndex = () => {
                         <b>Origin:</b> Ho Chi Minh, Vietnam
                       </h3>
                       <h3>
-                        <b>DOB:</b> July 4, 2001
+                        <b></b>
                       </h3>
                       <h3>
                         <b>Language:</b> English, Vietnamese
                       </h3>
                       <h3>
-                        <b>Email:</b> levanyenkhe@gmail.com
+                        <b></b>
                       </h3>
                     </div>
                   </div>
