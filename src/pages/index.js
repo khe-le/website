@@ -146,6 +146,15 @@ const HomeIndex = () => {
                         <b>Full Name:</b> Kate Le
                       </h3>
                       <h3>
+                        <b>Origin:</b> Ho Chi Minh, Vietnam
+                      </h3>
+                      <h3>
+                        <b>Language:</b> English, Vietnamese
+                      </h3>
+                    </div>
+                    
+                    <div className="profile-column col-md-6">
+                      <h3>
                         <b>School:</b> Connecticut College
                       </h3>
                       <h3>
@@ -153,20 +162,6 @@ const HomeIndex = () => {
                       </h3>
                       <h3>
                         <b>Expected Graduation:</b> 2024
-                      </h3>
-                    </div>
-                    <div className="profile-column col-md-6">
-                      <h3>
-                        <b>Origin:</b> Ho Chi Minh, Vietnam
-                      </h3>
-                      <h3>
-                        <b></b>
-                      </h3>
-                      <h3>
-                        <b>Language:</b> English, Vietnamese
-                      </h3>
-                      <h3>
-                        <b></b>
                       </h3>
                     </div>
                   </div>
