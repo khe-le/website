@@ -152,7 +152,6 @@ const HomeIndex = () => {
                         <b>Language:</b> English, Vietnamese
                       </h3>
                     </div>
-                    
                     <div className="profile-column col-md-6">
                       <h3>
                         <b>School:</b> Connecticut College
