@@ -1,9 +1,7 @@
 
 
 
-<div align="center">
-  <img alt="Website Logo" src="https://drive.google.com/uc?export=view&id=114MWSJlbvIcOXzoNKaQ8Kk8XfwvMJA3l" width="100">
-</div>
+
 <h1 align="center">
   www.khe-le.com
 </h1>
